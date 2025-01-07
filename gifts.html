@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Alison & David | 8.8.25</title>
+        
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/main.css" />
+
+        <link href="fontawesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="fontawesome/css/solid.css" rel="stylesheet" />
+
+        <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+    </head>
+    <body>
+        <div class="mobile mobile-header">
+            <button class="nav-button" onclick="openNav()">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <h1>Gifts</h1>
+        </div>
+
+        <h1>Alison & David</h1>
+        <div class="info">
+            <span>August 8, 2025</span> • 
+            <span>Lisbon, Portugal</span>
+        </div>
+        <div id="nav" class="nav closed">
+            <button class="mobile close" onclick="closeNav()">
+                <i class="fa-solid fa-x"></i>
+            </button>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="story.html">Our Story</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="travel.html">Travel</a></li>
+                <li><a href="todo.html">Things to Do</a></li>
+                <li><a href="qa.html">Q + A</a></li>
+                <li class="active"><a href="gifts.html">Gifts</a></li>
+                <li><a href="rsvp.html">RSVP</a></li>
+            </ul>
+        </div>
+
+
+        <div class="content">
+            <img src="images/3b30ab2a-76e1-41ad-b035-3c665087905d~rt_auto-cr_0.0.2500.1874-rs_510.webp" />
+
+            <p class="center">
+                Many of you are traveling across the globe to celebrate with us in Lisbon, so your presence and well wishes mean the world to us and is all we ask for. No gifts are necessary.
+            </p>
+
+            <p class="center">
+                Xx<br />
+                Alison & David
+            </p>
+        </div>
+
+        <div class="footer">
+            8.8.25
+        </div>
+    </body>
+    <script type="text/javascript">
+        function openNav() {
+            var navElement = document.getElementById("nav");
+            navElement.className = "nav open";
+        }
+
+        function closeNav() {
+            var navElement = document.getElementById("nav");
+            navElement.className = "nav closed";
+        }
+    </script>
+</html>
