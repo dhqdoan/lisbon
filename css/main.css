@@ -5,7 +5,7 @@ html {
 
 @font-face{
     font-family: "Futura PT Light";
-    src: url("fonts/futura-pt-light.woff");
+    src: url("../fonts/futura-pt-light.woff");
 }
 
 * {
