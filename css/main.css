@@ -1,0 +1,182 @@
+html {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+@font-face{
+    font-family: "Futura PT Light";
+    src: url("fonts/futura-pt-light.woff");
+}
+
+* {
+    background-color: #465246;
+    color: #e0e0e0;
+
+    font-family: "Futura PT Light";
+    letter-spacing: 0.1em;
+    transition: all 0.25s;
+}
+
+body {
+    padding: 0 2em;
+}
+
+a {
+    color: #e0e0e0; 
+}
+
+button {
+    border: none;
+    padding: 1.25rem;
+    cursor: pointer;
+}
+
+ul {
+    padding: 0;
+}
+
+.mobile {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+
+    font-size: 4em;
+    text-transform: uppercase;
+
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.mobile-header h1 {
+    font-size: 2em;
+    margin-top: 0.5em;
+}
+
+.mobile-header .nav-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.info {
+    text-align: center;
+
+    font-size: 1.5em;
+    text-transform: uppercase;
+
+    margin-bottom: 3em;
+}
+
+.info span {
+    white-space: nowrap;
+}
+
+.nav {
+    text-align: center;
+    font-size: 1.25em;
+    margin-bottom: 3em;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.nav li a {
+    padding: 0 0.25em;
+
+    border-bottom: 1px solid #465246;
+
+    text-decoration: none;
+}
+
+.nav li.active a {
+    border-bottom-color: #e0e0e0; 
+}
+
+.nav li a:hover {
+    border-bottom-color: #e0e0e0;
+}
+
+.content {
+    font-size: 1.25em;
+}
+
+.content h2 {
+    text-align: center;
+    margin-top: 3em;
+}
+
+.content img {
+    width: 100%;
+}
+
+.content .caption {
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin-bottom: 2em;
+}
+
+.content ul {
+    margin-top: -0.5em;
+    margin-left: 1em;
+}
+
+.content .button {
+    margin: 3em 0;
+    text-align: center;
+}
+
+.content .button a {
+    padding: 0.75em 2em;
+
+    background-color: #e0e0e0;
+    color: #465246;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+.footer {
+    margin: 3em auto;
+    padding-top: 1em;
+
+    width: 10em;
+
+    border-top: 1px solid #e0e0e0;
+    font-size: 2em;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .mobile {
+        display: block;
+    }
+
+    .nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        
+        width: 100%;
+    }
+
+    .nav.closed {
+        display: none;
+    }
+    
+    .nav .close {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .nav li {
+        display: block;
+    }
+}
