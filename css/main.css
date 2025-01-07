@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    padding: 0 2em;
+    padding: 0 1em;
 }
 
 a {
@@ -27,8 +27,9 @@ a {
 
 button {
     border: none;
-    padding: 1.25rem;
+    padding: 1rem;
     cursor: pointer;
+    font-size: 1.25em;
 }
 
 ul {
@@ -42,15 +43,22 @@ ul {
 h1 {
     text-align: center;
 
-    font-size: 4em;
+    font-size: 3em;
     text-transform: uppercase;
 
-    margin-top: 1em;
+    margin-top: 2em;
     margin-bottom: 0.5em;
 }
 
+.mobile-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
 .mobile-header h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-top: 0.5em;
 }
 
@@ -63,7 +71,7 @@ h1 {
 .info {
     text-align: center;
 
-    font-size: 1.5em;
+    font-size: 1.25em;
     text-transform: uppercase;
 
     margin-bottom: 3em;
@@ -77,6 +85,10 @@ h1 {
     text-align: center;
     font-size: 1.25em;
     margin-bottom: 3em;
+}
+
+.nav ul {
+    margin-top: 0.8em;
 }
 
 .nav li {
@@ -102,12 +114,13 @@ h1 {
 }
 
 .content {
-    font-size: 1.25em;
 }
 
 .content h2 {
     text-align: center;
     margin-top: 3em;
+    
+    font-size: 1.25em;
 }
 
 .content img {
@@ -159,7 +172,7 @@ h1 {
     }
 
     .nav {
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         
@@ -178,5 +191,6 @@ h1 {
 
     .nav li {
         display: block;
+        margin-right: 0;
     }
 }
