@@ -136,6 +136,10 @@ h1 {
         display: block;
     }
 
+    .mobile-header {
+        z-index: 999;
+    }
+
     .nav {
         position: fixed;
         top: 0;
