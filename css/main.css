@@ -386,4 +386,8 @@ table.schedule td img {
     .rsvp .info {
         margin-bottom: 0;
     }
+
+    .rsvp body {
+        padding: 0;
+    }
 }
