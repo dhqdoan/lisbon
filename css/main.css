@@ -383,8 +383,8 @@ table.schedule td img {
 }
 
 @media screen and (max-width: 600px) {
-    .rsvp body {
-        padding: 0;
+    .rsvp .content {
+        margin: 0 -2.5em;
     }
     .rsvp .info {
         margin-bottom: 0;
