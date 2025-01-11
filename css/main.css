@@ -390,4 +390,10 @@ table.schedule td img {
     .rsvp body {
         padding: 0;
     }
+
+    .rsvp h1, .rsvp .info {
+        padding: 0 1em;
+    }
+
+
 }
