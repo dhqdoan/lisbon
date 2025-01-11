@@ -350,7 +350,7 @@ table.schedule {
 
 table.schedule td {
     vertical-align: top;
-    padding-bottom: 1em;
+    padding: 0 0 1em 0;
 }
 
 table.schedule td:first-child {
@@ -373,4 +373,20 @@ table.schedule td img {
     border-top: 1px solid #e0e0e0;
     font-size: 2em;
     text-align: center;
+}
+
+
+
+
+.rsvp .nav, .rsvp .nav ul {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .rsvp body {
+        padding: 0;
+    }
+    .rsvp .info {
+        margin-bottom: 0;
+    }
 }
