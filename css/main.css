@@ -3,6 +3,10 @@ html {
     max-width: 800px;
 }
 
+html.rsvp {
+    max-width: 960px;
+}
+
 @font-face{
     font-family: "Futura PT Light";
     src: url("../fonts/futura-pt-light.woff");
