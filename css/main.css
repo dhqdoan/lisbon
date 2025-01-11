@@ -1,11 +1,16 @@
 html {
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 800px;
 }
 
 @font-face{
     font-family: "Futura PT Light";
     src: url("../fonts/futura-pt-light.woff");
+}
+
+@font-face{
+    font-family: "Didot Italic";
+    src: url("../fonts/Didot-HTF-L06-Light-Ital.woff");
 }
 
 * {
@@ -19,6 +24,12 @@ html {
 
 body {
     padding: 0 1em;
+}
+
+img {
+    max-width: 640px;
+    margin: 0 auto;
+    display: block;
 }
 
 a {
@@ -100,7 +111,7 @@ h1 {
 
 .nav li {
     display: inline-block;
-    margin-right: 1em;
+    margin-right: 0.6em;
     margin-bottom: 1em;
 }
 
@@ -129,6 +140,8 @@ h1 {
         position: fixed;
         top: 0;
         left: 0;
+
+        z-index: 999;
         
         width: 100%;
     }
@@ -289,6 +302,23 @@ h1 {
         left: 50%;
         top: -4em;
     }
+}
+
+table.schedule {
+    margin: 2em 0 1em 0;
+}
+
+table.schedule td {
+    vertical-align: top;
+    padding-bottom: 1em;
+}
+
+table.schedule td:first-child {
+    padding-right: 1em;
+}
+
+table.schedule td img {
+    margin: 1em 0 0 0;
 }
 
 
